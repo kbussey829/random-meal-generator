@@ -18,7 +18,7 @@ fetch("recipes.json")
             newCard.appendChild(titleText);
             newCard.appendChild(ingredients);
 
-            cardholder.appendChild(newTerm);
+            cardholder.appendChild(newCard);
             console.log("term appended")
         });
     });
