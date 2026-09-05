@@ -1,6 +1,5 @@
 // define dictionary container
 const cardholder = document.getElementById("cards");
-console.log("linked")
 
 fetch("recipes.json")
     .then(response => response.json())
@@ -19,6 +18,5 @@ fetch("recipes.json")
             newCard.appendChild(ingredients);
 
             cardholder.appendChild(newCard);
-            console.log("term appended")
         });
     });
